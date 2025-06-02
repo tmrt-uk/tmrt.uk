@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<main class="container py-5">
+  <article class="mx-auto" style="max-width: 900px;">
+    <header class="mb-4 border-bottom pb-3">
+      <h1 class="fw-bold text-tmrt-blue">{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <h2 class="h5 text-tmrt-mid-grey">{{ page.subtitle }}</h2>
+      {% endif %}
+      <div class="d-flex flex-wrap align-items-center mt-2 mb-2 small text-tmrt-mid-grey">
+        {% if page.author %}
+        <span class="me-3"><i class="fas fa-user"></i> {{ page.author }}</span>
+        {% endif %}
+        {% if page.date %}
+        <span class="me-3"><i class="fas fa-calendar-alt"></i> {{ page.date | date: "%B %d, %Y" }}</span>
+        {% endif %}
+        {% if page.category %}
+        <span class="me-3"><i class="fas fa-folder"></i> {{ page.category }}</span>
+        {% endif %}
+      </div>
+      {% if page.tags %}
+      <div class="mb-2">
+        {% for tag in page.tags %}
+        <span class="badge bg-tmrt-pale-grey text-tmrt-blue me-1">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if page.excerpt %}
+      <p class="lead mt-3 text-tmrt-dark-grey">{{ page.excerpt }}</p>
+      {% endif %}
+    </header>
+    {% if page.toc %}
+    <nav class="mb-4">
+      {% include toc.html html=content %}
+    </nav>
+    {% endif %}
+    <section class="document-content">
+      {{ content }}
+    </section>
+  </article>
+</main>

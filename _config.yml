@@ -11,3 +11,28 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-toc
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "documents"
+    values:
+      layout: "document"
+      author: "TMRT Team"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "TMRT Team"
+
+
+collections:
+  documents:
+    output: true
+    permalink: /:collection/:name/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/

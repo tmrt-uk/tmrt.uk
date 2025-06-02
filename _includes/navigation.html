@@ -1,29 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-tmrt-pale-grey">
-    <div class="container">
-      <a class="navbar-brand" href="{{ site.baseurl }}/">trmt.uk</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/blog.html">Blog</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-tmrt-pale-grey py-4" style="min-height: 6vw;">
+  <div class="container align-items-center">
+    <a class="navbar-brand d-flex align-items-center gap-3" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/tmrt-logo-text.png" alt="Site Logo" style="height: 3vw; min-height: 2rem; max-height: 4rem; width: auto;" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto fs-4">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/documents/">Documents</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>

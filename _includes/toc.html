@@ -1,0 +1,6 @@
+{% if page.toc %}
+<nav class="mb-4">
+  <h3 class="h6 text-uppercase text-tmrt-mid-grey">Contents</h3>
+  {{ content | toc_only }}
+</nav>
+{% endif %}
