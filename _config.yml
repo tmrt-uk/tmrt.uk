@@ -1,0 +1,13 @@
+title: trmt.uk
+description: A simple Jekyll site using Bootstrap for styling
+baseurl: ""
+url: "http://trmt.uk"
+author:
+  name: Andrew
+  email: andrew@example.com
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

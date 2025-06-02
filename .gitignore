@@ -1,0 +1,12 @@
+# Jekyll build and cache
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS files
+.DS_Store
+
+# Ruby files
+.bundle/
+vendor/

@@ -1,0 +1,118 @@
+---
+# TMRT Brand Palette
+---
+
+/* TMRT Brand Palette - Generated from JSON */
+
+:root {
+  /* Level 1: TMRT blues */
+  --tmrt-dark-blue: #001987;
+  --tmrt-blue: #003FB8;
+  --tmrt-bright-blue: #004FCE;
+  --tmrt-light-blue: #409AE6;
+  --tmrt-aqua-blue: #0086CE;
+
+  /* Level 2: TMRT neutrals */
+  --tmrt-black: #231F20;
+  --tmrt-dark-grey: #424F63;
+  --tmrt-mid-grey: #768192;
+  --tmrt-pale-grey: #E8ECEE;
+  --white: #FFFFFF;
+
+  /* Level 3: TMRT support greens */
+  --tmrt-dark-green: #006758;
+  --tmrt-green: #009652;
+  --tmrt-light-green: #5DBE1F;
+  --tmrt-aqua-green: #0093A4;
+
+  /* Level 4: TMRT highlights */
+  --tmrt-purple: #460072;
+  --dark-pink: #7C2846;
+  --tmrt-pink: #AE255C;
+  --tmrt-dark-red: #8A1524;
+  --emergency-services-red: #DA481B;
+  --tmrt-red: #BD5840;
+  --tmrt-orange: #EDB200;
+  --tmrt-warm-yellow: #FFDD1C;
+  --tmrt-yellow: #E9FA00;
+  --euro-ambulance-yellow: #E6F137;
+
+}
+
+/* Background Colors */
+.bg-tmrt-dark-blue { background-color: #001987; }
+.bg-tmrt-blue { background-color: #003FB8; }
+.bg-tmrt-bright-blue { background-color: #004FCE; }
+.bg-tmrt-light-blue { background-color: #409AE6; }
+.bg-tmrt-aqua-blue { background-color: #0086CE; }
+.bg-tmrt-black { background-color: #231F20; }
+.bg-tmrt-dark-grey { background-color: #424F63; }
+.bg-tmrt-mid-grey { background-color: #768192; }
+.bg-tmrt-pale-grey { background-color: #E8ECEE; }
+.bg-white { background-color: #FFFFFF; }
+.bg-tmrt-dark-green { background-color: #006758; }
+.bg-tmrt-green { background-color: #009652; }
+.bg-tmrt-light-green { background-color: #5DBE1F; }
+.bg-tmrt-aqua-green { background-color: #0093A4; }
+.bg-tmrt-purple { background-color: #460072; }
+.bg-dark-pink { background-color: #7C2846; }
+.bg-tmrt-pink { background-color: #AE255C; }
+.bg-tmrt-dark-red { background-color: #8A1524; }
+.bg-emergency-services-red { background-color: #DA481B; }
+.bg-tmrt-red { background-color: #BD5840; }
+.bg-tmrt-orange { background-color: #EDB200; }
+.bg-tmrt-warm-yellow { background-color: #FFDD1C; }
+.bg-tmrt-yellow { background-color: #E9FA00; }
+.bg-euro-ambulance-yellow { background-color: #E6F137; }
+
+/* Text Colors */
+.text-tmrt-dark-blue { color: #001987; }
+.text-tmrt-blue { color: #003FB8; }
+.text-tmrt-bright-blue { color: #004FCE; }
+.text-tmrt-light-blue { color: #409AE6; }
+.text-tmrt-aqua-blue { color: #0086CE; }
+.text-tmrt-black { color: #231F20; }
+.text-tmrt-dark-grey { color: #424F63; }
+.text-tmrt-mid-grey { color: #768192; }
+.text-tmrt-pale-grey { color: #E8ECEE; }
+.text-white { color: #FFFFFF; }
+.text-tmrt-dark-green { color: #006758; }
+.text-tmrt-green { color: #009652; }
+.text-tmrt-light-green { color: #5DBE1F; }
+.text-tmrt-aqua-green { color: #0093A4; }
+.text-tmrt-purple { color: #460072; }
+.text-dark-pink { color: #7C2846; }
+.text-tmrt-pink { color: #AE255C; }
+.text-tmrt-dark-red { color: #8A1524; }
+.text-emergency-services-red { color: #DA481B; }
+.text-tmrt-red { color: #BD5840; }
+.text-tmrt-orange { color: #EDB200; }
+.text-tmrt-warm-yellow { color: #FFDD1C; }
+.text-tmrt-yellow { color: #E9FA00; }
+.text-euro-ambulance-yellow { color: #E6F137; }
+
+/* Border Colors */
+.border-tmrt-dark-blue { border-color: #001987; }
+.border-tmrt-blue { border-color: #003FB8; }
+.border-tmrt-bright-blue { border-color: #004FCE; }
+.border-tmrt-light-blue { border-color: #409AE6; }
+.border-tmrt-aqua-blue { border-color: #0086CE; }
+.border-tmrt-black { border-color: #231F20; }
+.border-tmrt-dark-grey { border-color: #424F63; }
+.border-tmrt-mid-grey { border-color: #768192; }
+.border-tmrt-pale-grey { border-color: #E8ECEE; }
+.border-white { border-color: #FFFFFF; }
+.border-tmrt-dark-green { border-color: #006758; }
+.border-tmrt-green { border-color: #009652; }
+.border-tmrt-light-green { border-color: #5DBE1F; }
+.border-tmrt-aqua-green { border-color: #0093A4; }
+.border-tmrt-purple { border-color: #460072; }
+.border-dark-pink { border-color: #7C2846; }
+.border-tmrt-pink { border-color: #AE255C; }
+.border-tmrt-dark-red { border-color: #8A1524; }
+.border-emergency-services-red { border-color: #DA481B; }
+.border-tmrt-red { border-color: #BD5840; }
+.border-tmrt-orange { border-color: #EDB200; }
+.border-tmrt-warm-yellow { border-color: #FFDD1C; }
+.border-tmrt-yellow { border-color: #E9FA00; }
+.border-euro-ambulance-yellow { border-color: #E6F137; }

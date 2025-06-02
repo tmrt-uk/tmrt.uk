@@ -1,0 +1,122 @@
+{
+  "palette_name": "TMRT Brand Palette",
+  "columns": 5,
+  "groups": [
+    {
+      "name": "Level 1: TMRT blues",
+      "colors": [
+        {
+          "name": "TMRT Dark Blue",
+          "hex": "#001987"
+        },
+        {
+          "name": "TMRT Blue",
+          "hex": "#003FB8"
+        },
+        {
+          "name": "TMRT Bright Blue",
+          "hex": "#004FCE"
+        },
+        {
+          "name": "TMRT Light Blue",
+          "hex": "#409AE6"
+        },
+        {
+          "name": "TMRT Aqua Blue",
+          "hex": "#0086CE"
+        }
+      ]
+    },
+    {
+      "name": "Level 2: TMRT neutrals",
+      "colors": [
+        {
+          "name": "TMRT Black",
+          "hex": "#231F20"
+        },
+        {
+          "name": "TMRT Dark Grey",
+          "hex": "#424F63"
+        },
+        {
+          "name": "TMRT Mid Grey",
+          "hex": "#768192"
+        },
+        {
+          "name": "TMRT Pale Grey",
+          "hex": "#E8ECEE"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Level 3: TMRT support greens",
+      "colors": [
+        {
+          "name": "TMRT Dark Green",
+          "hex": "#006758"
+        },
+        {
+          "name": "TMRT Green",
+          "hex": "#009652"
+        },
+        {
+          "name": "TMRT Light Green",
+          "hex": "#5DBE1F"
+        },
+        {
+          "name": "TMRT Aqua Green",
+          "hex": "#0093A4"
+        }
+      ]
+    },
+    {
+      "name": "Level 4: TMRT highlights",
+      "colors": [
+        {
+          "name": "TMRT Purple",
+          "hex": "#460072"
+        },
+        {
+          "name": "Dark Pink",
+          "hex": "#7C2846"
+        },
+        {
+          "name": "TMRT Pink",
+          "hex": "#AE255C"
+        },
+        {
+          "name": "TMRT Dark Red",
+          "hex": "#8A1524"
+        },
+        {
+          "name": "Emergency Services Red",
+          "hex": "#DA481B"
+        },
+        {
+          "name": "TMRT Red",
+          "hex": "#BD5840"
+        },
+        {
+          "name": "TMRT Orange",
+          "hex": "#EDB200"
+        },
+        {
+          "name": "TMRT Warm Yellow",
+          "hex": "#FFDD1C"
+        },
+        {
+          "name": "TMRT Yellow",
+          "hex": "#E9FA00"
+        },
+        {
+          "name": "Euro Ambulance Yellow (approx)",
+          "hex": "#E6F137"
+        }
+      ]
+    }
+  ]
+}

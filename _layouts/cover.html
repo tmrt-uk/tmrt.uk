@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+  <!-- Hero Section -->
+  <section class="bg-tmrt-blue text-white text-center py-5">
+    <div class="container">
+      <h1>{{ page.hero.title }}</h1>
+      <h2>{{ page.hero.subtitle }}</h2>
+      <p>{{ page.hero.description }}</p>
+    </div>
+  </section>
+
+  <!-- What We Do -->
+  <section class="bg-white text-tmrt-black py-4">
+    <div class="container">
+      <h2>{{ page.what.title }}</h2>
+      <p>{{ page.what.description }}</p>
+    </div>
+  </section>
+
+  <!-- Key Features -->
+  <section class="bg-tmrt-pale-grey text-tmrt-black py-4">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="row">
+        {% for feature in page.features %}
+        <div class="col-md-4 mb-3">
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">{{ feature.title }}</h5>
+              <p class="card-text">{{ feature.description }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="bg-tmrt-light-blue text-white py-4">
+    <div class="container">
+      <h2>{{ page.how.title }}</h2>
+      <ol>
+        {% for step in page.how.steps %}
+        <li>{{ step }}</li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <!-- Governance -->
+  <section class="bg-tmrt-aqua-blue text-white py-4">
+    <div class="container">
+      <h2>{{ page.governance.title }}</h2>
+      <div class="row">
+        {% for principle in page.governance.principles %}
+        <div class="col-md-3 mb-3">
+          <div class="card bg-tmrt-dark-blue text-white border-0">
+            <div class="card-body">
+              <h5>{{ principle.title }}</h5>
+              <p>{{ principle.description }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-white text-tmrt-black text-center py-4">
+    <div class="container">
+      <h2>{{ page.contact.title }}</h2>
+      <p>{{ page.contact.description }}</p>
+      <p><a href="mailto:{{ page.contact.email }}" class="btn btn-primary">Email Us</a></p>
+    </div>
+  </section>

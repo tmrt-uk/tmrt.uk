@@ -1,0 +1,50 @@
+{
+    "palette_name": "NHS Brand Palette",
+    "columns": 5,
+    "groups": [
+      {
+        "name": "Level 1: NHS blues",
+        "colors": [
+          {"name": "NHS Dark Blue", "hex": "#003087"},
+          {"name": "NHS Blue", "hex": "#005EB8"},
+          {"name": "NHS Bright Blue", "hex": "#0072CE"},
+          {"name": "NHS Light Blue", "hex": "#41B6E6"},
+          {"name": "NHS Aqua Blue", "hex": "#00A9CE"}
+        ]
+      },
+      {
+        "name": "Level 2: NHS neutrals",
+        "colors": [
+          {"name": "NHS Black", "hex": "#231F20"},
+          {"name": "NHS Dark Grey", "hex": "#425563"},
+          {"name": "NHS Mid Grey", "hex": "#768692"},
+          {"name": "NHS Pale Grey", "hex": "#E8EDEE"},
+          {"name": "White", "hex": "#FFFFFF"}
+        ]
+      },
+      {
+        "name": "Level 3: NHS support greens",
+        "colors": [
+          {"name": "NHS Dark Green", "hex": "#006747"},
+          {"name": "NHS Green", "hex": "#009639"},
+          {"name": "NHS Light Green", "hex": "#78BE20"},
+          {"name": "NHS Aqua Green", "hex": "#00A499"}
+        ]
+      },
+      {
+        "name": "Level 4: NHS highlights",
+        "colors": [
+          {"name": "NHS Purple", "hex": "#330072"},
+          {"name": "Dark Pink", "hex": "#7C2855"},
+          {"name": "NHS Pink", "hex": "#AE2573"},
+          {"name": "NHS Dark Red", "hex": "#8A1538"},
+          {"name": "Emergency Services Red", "hex": "#DA291C"},
+          {"name": "NHS Red", "hex": "#BD4440"},
+          {"name": "NHS Orange", "hex": "#ED8B00"},
+          {"name": "NHS Warm Yellow", "hex": "#FFB81C"},
+          {"name": "NHS Yellow", "hex": "#FAE100"},
+          {"name": "Euro Ambulance Yellow (approx)", "hex": "#F1DD38"}
+        ]
+      }
+    ]
+  }
