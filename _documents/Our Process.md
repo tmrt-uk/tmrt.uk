@@ -1,6 +1,6 @@
 ---
 layout: document
-title: "How the Medical Records Trust Collects Your NHS Records on Your Behalf"
+title: "How the Medical Records Trust Collects Your NHS Records"
 subtitle: "A Step-by-Step Guide to Secure, Patient-Controlled Record Retrieval"
 date: 2025-06-02
 author: "Darwinist Team"
